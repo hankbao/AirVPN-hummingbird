@@ -1,0 +1,62 @@
+Changelog 1.0 - 27 December 2019
+
+- [ProMIND] Production release
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 RC2 - 19 December 2019
+
+- [ProMIND] Better management of Linux NetworkManager and systemd-resolved in case they are both running
+- [ProMIND] Log a warning in case Linux NetworkManager and/or systemd-resolved are running
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 RC1 - 10 December 2019
+
+- [ProMIND] Updated asio dependency
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 beta 2 - 6 December 2019
+
+- [ProMIND] Updated to OpenVPN 3.6.1 AirVPN
+- [ProMIND] macOS now uses OpenVPN's Tunnel Builder
+- [ProMIND] Added --ignore-dns-push option for macOS
+- [ProMIND] Added --recover-network option for macOS
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 beta 1 - 28 November 2019
+
+- [ProMIND] Added a better description for ipv6 option in help page
+- [ProMIND] --recover-network option now warns the user in case the program has properly exited in its last run
+- [ProMIND] NetFilter class is now aware of both iptables and iptables-legacy and gives priority to the latter
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 alpha 2 - 7 November 2019
+ 
+- [ProMIND] DNS resolver has now a better management of IPv6 domains
+- [ProMIND] DNS resolver has now a better management of multi IP domains
+- [ProMIND] Minor bug fixes
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Changelog 1.0 alpha 1 - 1 November 2019
+
+- [ProMIND] Initial public release
+
+
