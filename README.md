@@ -38,7 +38,10 @@
   * [Build Linux Dynamic Binary](#build-linux-dynamic-binary)
   * [Build Linux - ARM and macOS Static Binary](#build-linux-arm-and-macos-static-binary)
 
-  
+
+-------------------------------------------------------------------------------
+
+
 ## How to install AirVPN Hummingbird client for Linux - Raspberry and macOS
 
 Hummingbird is distributed in binary forms and the complete source code is available in the its [gitlab repository](https://gitlab.com/AirVPN/hummingbird). For more information, feedback and latest news, please refer to [AirVPN forum](https://airvpn.org/forums/) and related threads
