@@ -295,5 +295,5 @@ Special thanks to the AirVPN community for the valuable help, support, suggestio
 
 OpenVPN is Copyright (C) 2012-2017 OpenVPN Inc. All rights reserved.
 
-Hummingbird is released and licensed under the [GNU General Public License Version 3 (GPLv3)](https://gitlab.com/AirVPN/hummingbird/LICENSE.md)
+Hummingbird is released and licensed under the [GNU General Public License Version 3 (GPLv3)](https://gitlab.com/AirVPN/hummingbird/blob/master/LICENSE.md)
 
