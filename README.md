@@ -19,6 +19,11 @@
 ## Contents
 
 * [How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS](#how-to-install-airvpn's-hummingbird-client-for-linux,-raspberry-and-macos)
+  * [Requirements](#requirements)
+  * [Linux x86-64 Installation](#linux-x86-64-installation)
+  * [Raspberry/Raspbian/Linux ARM 32 bit Installation](#raspberry/raspbian/linux-arm-32-bit-installation)
+  * [Raspberry/Linux ARM 64 bit Installation](#raspberry/linux-arm-64-bit-installation)
+  * [macOS Installation](#macos-installation)
 * [Running the Hummingbird Client](#running-the-hummingbird-client)
   * [Start a connection](#start-a-connection)
   * [Stop a connection](#stop-a-connection)
