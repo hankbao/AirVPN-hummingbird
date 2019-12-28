@@ -17,7 +17,7 @@
 * proper handling of DNS push by VPN servers, working with resolv.conf as well as any operational mode of systemd-resolved additional features
 
 
-## How to install AirVPN client for Linux, Raspberry and macOS
+## How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS
 
 Hummingbird is distributed in binary forms and the complete source code is available in the its [gitlab repository](https://gitlab.com/AirVPN/hummingbird). For more information, feedback and latest news, please refer to [AirVPN forum](https://airvpn.org/forums/) and related threads
 
@@ -50,8 +50,8 @@ Hummingbird is distributed in binary forms and the complete source code is avail
 
 ## Linux x86-64 Installation
 
-* Download [hummingbird-linux-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-linux-1.0.tar.gz)
-* (optional) Download [hummingbird-linux-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-linux-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
+* Download [hummingbird-linux-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-x86_64-1.0.tar.gz)
+* (optional) Download [hummingbird-linux-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-x86_64-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
 * [optional] Open a terminal window
 * [optional] Check the integrity of the tar archive by issuing this command: `sha512sum --check hummingbird-linux-1.0.tar.gz.sha512`
 * [optional] Make sure the command responds with `hummingbird-linux-1.0.tar.gz: OK`
@@ -69,8 +69,8 @@ Hummingbird is distributed in binary forms and the complete source code is avail
  
 ## Raspberry/Raspbian/Linux ARM 32 bit Installation
 
-* Download [hummingbird-armv7l-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-armv7l-1.0.tar.gz)
-* [optional] Download [hummingbird-armv7l-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-armv7l-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
+* Download [hummingbird-armv7l-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-armv7l-1.0.tar.gz)
+* [optional] Download [hummingbird-armv7l-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-armv7l-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
 * [optional] Open a terminal window
 * [optional] Check the integrity of the tar archive by issuing this command: `sha512sum --check hummingbird-armv7l-1.0.tar.gz.sha512`
 * [optional] Make sure the command responds with `hummingbird-armv7l-1.0.tar.gz: OK`
@@ -88,8 +88,8 @@ Hummingbird is distributed in binary forms and the complete source code is avail
  
 ## Raspberry/Linux ARM 64 bit Installation
 
-* Download [hummingbird-aarch64-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-aarch64-1.0.tar.gz)
-* [optional] Download [hummingbird-aarch64-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-aarch64-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
+* Download [hummingbird-aarch64-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-aarch64-1.0.tar.gz)
+* [optional] Download [hummingbird-aarch64-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-aarch64-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
 * [optional] Open a terminal window
 * [optional] Check the integrity of the tar archive by issuing this command: `sha512sum --check hummingbird-aarch64-1.0.tar.gz.sha512`
 * [optional] Make sure the command responds with "``hummingbird-aarch64--1.0-RC2.tar.gz: OK`
@@ -107,8 +107,8 @@ Hummingbird is distributed in binary forms and the complete source code is avail
  
 ## macOS Installation
 
-* Download [hummingbird-macos-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-macos-1.0.tar.gz)
-* [optional] Download [hummingbird-macos-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/binary/hummingbird-macos-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
+* Download [hummingbird-macos-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-macos-1.0.tar.gz)
+* [optional] Download [hummingbird-macos-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-macos-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
 * [optional] Open a terminal window
 * [optional] Check the integrity of the tar archive by issuing this command: `shasum -a 512 -c hummingbird-macos-1.0.tar.gz.sha512`
 * [optional] Make sure the command responds with `hummingbird-macos-1.0.tar.gz: OK`
