@@ -20,11 +20,11 @@
 
 * [How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS](#how-to-install-airvpn's-hummingbird-client-for-linux,-raspberry-and-macos)
 * [Running the Hummingbird Client](#running-the-hummingbird-client)
-  * [Start a connection](#start-a-connection:)
-  * [Stop a connection](#stop-a-connection:)
-  * [Start a connection with a specific cipher](#start-a-connection-with-a-specific-cipher:)
-  * [Disable the network filter and lock](#disable-the-network-filter-and-lock:)
-  * [Ignore the DNS servers pushed by the VPN server](#ignore-the-dns-servers-pushed-by-the-vpn-server:)
+  * [Start a connection](#start-a-connection)
+  * [Stop a connection](#stop-a-connection)
+  * [Start a connection with a specific cipher](#start-a-connection-with-a-specific-cipher)
+  * [Disable the network filter and lock](#disable-the-network-filter-and-lock)
+  * [Ignore the DNS servers pushed by the VPN server](#ignore-the-dns-servers-pushed-by-the-vpn-server)
 * [Network Filter and Lock](#network-filter-and-lock)
 * [DNS Management in Linux](#dns-management-in-linux)
 * [DNS Management in macOS](#dns-management-in-macos)
@@ -207,26 +207,26 @@ After having entered your root account password, `hummingbird` responds with:
 
 Hummingbird needs a valid OpenVPN profile in order to connect to a server. You can create an OpenVPN profile by using the config generator available at AirVPN website in your account's [Client Area](https://airvpn.org/generator/)
 
-#### Start a connection:
+#### Start a connection
 
 >`sudo ./hummingbird your_openvpn_file.ovpn`
 
-#### Stop a connection:
+#### Stop a connection
 
 Type `CTRL+C` in the terminal window where hummingbird is running. The client will initiate the disconnection process and will restore your original network settings according to your options.
 
 
-#### Start a connection with a specific cipher:
+#### Start a connection with a specific cipher
 
 >`sudo ./hummingbird --ncp-disable --cipher CHACHA20-POLY1305 your_openvpn_file.ovpn`
 
 **Please note**: in order to properly work, the server you are connecting to must support the cipher specified with the `--cipher` option. If you wish to use `CHACHA20-POLY1305` cipher, you can find AirVPN servers supporting it in [our real time servers monitor](https://airvpn.org/status): they are marked in yellow as "Experimental ChaCha20".
 
-#### Disable the network filter and lock:
+#### Disable the network filter and lock
 
 >`sudo ./hummingbird --network-lock off your_openvpn_file.ovpn`
 
-#### Ignore the DNS servers pushed by the VPN server:
+#### Ignore the DNS servers pushed by the VPN server
 
 >`sudo ./hummingbird --ignore-dns-push your_openvpn_file.ovpn`
 
