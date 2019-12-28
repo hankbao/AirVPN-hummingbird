@@ -16,6 +16,23 @@
 * robust leaks prevention through Network Lock based either on iptables, nftables or pf through automatic detection
 * proper handling of DNS push by VPN servers, working with resolv.conf as well as any operational mode of systemd-resolved additional features
 
+## Contents
+
+* [How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS](#how-to-install-airvpn's-hummingbird-client-for-linux,-raspberry-and-macos)
+* [Running the Hummingbird Client](#running-the-hummingbird-client)
+  * [Start a connection](#start-a-connection:)
+  * [Stop a connection](#stop-a-connection:)
+  * [Start a connection with a specific cipher](#start-a-connection-with-a-specific-cipher:)
+  * [Disable the network filter and lock](#disable-the-network-filter-and-lock:)
+  * [Ignore the DNS servers pushed by the VPN server](#ignore-the-dns-servers-pushed-by-the-vpn-server:)
+* [Network Filter and Lock](#network-filter-and-lock)
+* [DNS Management in Linux](#dns-management-in-linux)
+* [DNS Management in macOS](#dns-management-in-macos)
+* [Recover Your Network Settings](#recover-your-network-settings)
+* [Compile Hummingbird from Sources](#compile-hummingbird-from-sources)
+  * [Build Linux Dynamic Binary](#build-linux-dynamic-binary)
+  * [Build Linux, ARM and macOS Static Binary](#build-linux,-arm-and-macos-static-binary)
+
 
 ## How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS
 
@@ -83,7 +100,7 @@ Hummingbird is distributed in binary forms and the complete source code is avail
 * [optional] Check dynamic library availability. Issue the command `ldd hummingbird` and make sure all the required dynamic libraries are available. No line of the output must contain "not found"
 * the Raspberry/Raspbian/ARM32 client is now ready to be used and possibly copied to a different directory of your system, such as `/usr/bin` or `/usr/local/bin`
 
-** Please note hummingbird needs root privileges. Your user must therefore be included in your system's "sudoers"**
+**Please note hummingbird needs root privileges. Your user must therefore be included in your system's "sudoers"**
 
  
 ## Raspberry/Linux ARM 64 bit Installation
