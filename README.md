@@ -1,6 +1,6 @@
 # Hummingbird for Linux and macOS
 
-#### Free and open source openVPN 3 client based on AirVPN's OpenVPN 3 library fork
+#### Free and open source OpenVPN 3 client based on AirVPN's OpenVPN 3 library fork
 
 ### Version 1.0 - Release date 27 December 2019
 
@@ -230,7 +230,7 @@ Furthermore, please note that if your network interfaces are managed by Network 
 
 ## DNS Management in macOS
 
-DNS setting and management is done through openVPN3 native support
+DNS setting and management is done through OpenVPN 3 native support
 
 
 ## Recover Your Network Settings
@@ -246,7 +246,7 @@ Please note in case of crash or unexpected exit, when you subsequently run hummi
 
 In order to build `hummingbird` from sources, you need the following dependencies:
 
-* [OpenVPN3 3.6.1 AirVPN fork](https://github.com/AirVPN/openvpn3-airvpn)
+* [OpenVPN 3 AirVPN fork](https://github.com/AirVPN/openvpn3-airvpn) (at least version 3.6.1)
 * [asio](https://github.com/chriskohlhoff/asio)
 * [mbedTLS 2.6.13](https://tls.mbed.org/download)
 * [LZ4 library](https://github.com/lz4/lz4)
