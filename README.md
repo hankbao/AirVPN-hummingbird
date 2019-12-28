@@ -18,11 +18,11 @@
 
 ## Contents
 
-* [How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS](#how-to-install-airvpn's-hummingbird-client-for-linux,-raspberry-and-macos)
+* [How to install AirVPN Hummingbird client for Linux - Raspberry and macOS](#how-to-install-airvpn-hummingbird-client-for-linux---raspberry-and-macos)
   * [Requirements](#requirements)
   * [Linux x86-64 Installation](#linux-x86-64-installation)
-  * [Raspberry/Raspbian/Linux ARM 32 bit Installation](#raspberry/raspbian/linux-arm-32-bit-installation)
-  * [Raspberry/Linux ARM 64 bit Installation](#raspberry/linux-arm-64-bit-installation)
+  * [Raspberry - Raspbian - Linux ARM 32 bit Installation](#raspberry---raspbian---linux-arm-32-bit-installation)
+  * [Raspberry - Linux ARM 64 bit Installation](#raspberry---linux-arm-64-bit-installation)
   * [macOS Installation](#macos-installation)
 * [Running the Hummingbird Client](#running-the-hummingbird-client)
   * [Start a connection](#start-a-connection)
@@ -36,10 +36,10 @@
 * [Recover Your Network Settings](#recover-your-network-settings)
 * [Compile Hummingbird from Sources](#compile-hummingbird-from-sources)
   * [Build Linux Dynamic Binary](#build-linux-dynamic-binary)
-  * [Build Linux, ARM and macOS Static Binary](#build-linux,-arm-and-macos-static-binary)
+  * [Build Linux - ARM and macOS Static Binary](#build-linux---arm-and-macos-static-binary)
 
-
-## How to install AirVPN's Hummingbird client for Linux, Raspberry and macOS
+  
+## How to install AirVPN Hummingbird client for Linux - Raspberry and macOS
 
 Hummingbird is distributed in binary forms and the complete source code is available in the its [gitlab repository](https://gitlab.com/AirVPN/hummingbird). For more information, feedback and latest news, please refer to [AirVPN forum](https://airvpn.org/forums/) and related threads
 
@@ -89,7 +89,7 @@ Hummingbird is distributed in binary forms and the complete source code is avail
 **Please note hummingbird client needs root privileges. Your user must therefore be included in your system's "sudoers" (depending on specific Linux distribution)**
 
  
-## Raspberry/Raspbian/Linux ARM 32 bit Installation
+## Raspberry - Raspbian - Linux ARM 32 bit Installation
 
 * Download [hummingbird-armv7l-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-armv7l-1.0.tar.gz)
 * [optional] Download [hummingbird-armv7l-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-armv7l-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
@@ -108,7 +108,7 @@ Hummingbird is distributed in binary forms and the complete source code is avail
 **Please note hummingbird needs root privileges. Your user must therefore be included in your system's "sudoers"**
 
  
-## Raspberry/Linux ARM 64 bit Installation
+## Raspberry - Linux ARM 64 bit Installation
 
 * Download [hummingbird-aarch64-1.0.tar.gz](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-aarch64-1.0.tar.gz)
 * [optional] Download [hummingbird-aarch64-1.0.tar.gz.sha512](https://gitlab.com/AirVPN/hummingbird/blob/master/binary/hummingbird-linux-aarch64-1.0.tar.gz.sha512) This file is required to check the integrity of the above tar archive. It is not mandatory but it is strongly advised to download this file and check the tar archive integrity
@@ -296,7 +296,7 @@ Run the build shell script:
 The script will compile the project and create `hummingbird` binary in the current directory.
 
 
-## Build Linux, ARM and macOS Static Binary
+## Build Linux - ARM and macOS Static Binary
 
 Edit `build-static.sh` script and set `INC_DIR`, `OPENVPN3` and `ASIO` variables according to your system configuration. Also set `STATIC_LIB_DIR` and `SSL_LIB_DIR` according to your system architecture.
 
