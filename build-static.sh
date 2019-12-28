@@ -35,24 +35,24 @@ case $OS_NAME in
         case $OS_ARCH_NAME in
             x86_64)
                 STATIC_LIB_DIR=/usr/lib64
-                LIB_DIR=/usr/lib64
+                SSL_LIB_DIR=/usr/lib64
                 break
                 ;;
 
             armv7l)
                 STATIC_LIB_DIR=/usr/lib/arm-linux-gnueabihf
-                LIB_DIR=/usr/local/lib
+                SSL_LIB_DIR=/usr/local/lib
                 break
                 ;;
 
             aarch64)
                 STATIC_LIB_DIR=/usr/lib/aarch64-linux-gnu
-                LIB_DIR=/usr/local/lib
+                SSL_LIB_DIR=/usr/local/lib
                 break
                 ;;
         esac
 
-        COMPILE="g++ -fwhole-program -Ofast -Wall -Wno-sign-compare -Wno-unused-parameter -std=c++14 -flto=4 -Wl,--no-as-needed -Wunused-local-typedefs -Wunused-variable -Wno-shift-count-overflow -pthread -DUSE_MBEDTLS -DUSE_ASIO -DASIO_STANDALONE -DASIO_NO_DEPRECATED -I${ASIO}/asio/include -DHAVE_LZ4 -I${OPENVPN3} ${SOURCES} ${LIB_DIR}/libmbedtls.a ${LIB_DIR}/libmbedx509.a ${LIB_DIR}/libmbedcrypto.a ${STATIC_LIB_DIR}/liblz4.a ${STATIC_LIB_DIR}/libz.a ${STATIC_LIB_DIR}/liblzma.a -o ${BIN_FILE}"
+        COMPILE="g++ -fwhole-program -Ofast -Wall -Wno-sign-compare -Wno-unused-parameter -std=c++14 -flto=4 -Wl,--no-as-needed -Wunused-local-typedefs -Wunused-variable -Wno-shift-count-overflow -pthread -DUSE_MBEDTLS -DUSE_ASIO -DASIO_STANDALONE -DASIO_NO_DEPRECATED -I${ASIO}/asio/include -DHAVE_LZ4 -I${OPENVPN3} ${SOURCES} ${SSL_LIB_DIR}/libmbedtls.a ${SSL_LIB_DIR}/libmbedx509.a ${SSL_LIB_DIR}/libmbedcrypto.a ${STATIC_LIB_DIR}/liblz4.a ${STATIC_LIB_DIR}/libz.a ${STATIC_LIB_DIR}/liblzma.a -o ${BIN_FILE}"
 
         break
 	    ;;
