@@ -276,7 +276,7 @@ The script will compile the project and create `hummingbird` binary in the curre
 
 ## Build Linux, ARM and macOS Static Binary
 
-Edit `build-static.sh` script and set `INC_DIR`, `OPENVPN3` and `ASIO` variables according to your system configuration
+Edit `build-static.sh` script and set `INC_DIR`, `OPENVPN3` and `ASIO` variables according to your system configuration. Also set `STATIC_LIB_DIR` and `SSL_LIB_DIR` according to your system architecture.
 
 Run the build shell script:
 
