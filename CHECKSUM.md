@@ -19,13 +19,13 @@ For this reason, we cannot guarantee forked, modified and custom compiled
 versions of Hummingbird to be compliant to our specifications, development and
 coding guidelines and style, including our security standards. These projects,
 of course, may also be better and more efficient than our release, however we
-cannot guarantee or provide help for the job or others.
+cannot guarantee or provide help for the job of others.
 
 You are therefore strongly advised to check and verify the checksum codes found
 in the `.sha512` files to exactly correspond to the ones below, that is, the
 checksum we have computed from the sources and distribution files directly
 compiled and built by AirVPN. This will make you sure about the origin and
-authenticity of hummingbird client. Please note the files contained in the
+authenticity of the hummingbird client. Please note the files contained in the
 distribution tarballs are created from the very source code available in the
 master branch of the [official hummingbird's repository](https://gitlab.com/AirVPN/hummingbird).
 
