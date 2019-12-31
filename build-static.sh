@@ -115,7 +115,9 @@ cp README.md ${OUT_DIR_NAME}
 cp LICENSE.md ${OUT_DIR_NAME}
 cp Changelog.txt ${OUT_DIR_NAME}
 
-$SHA_CMD ${OUT_DIR_NAME}/${BASE_NAME} > ${OUT_DIR_NAME}/${BASE_NAME}.sha512
+cd ${OUT_DIR_NAME}
+$SHA_CMD ${BASE_NAME} > ${BASE_NAME}.sha512
+cd ..
 
 if [ -f ${TAR_FILE_NAME} ]
 then
