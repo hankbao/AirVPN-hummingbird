@@ -17,24 +17,24 @@ client genuinely developed and supported by AirVPN.
 
 For this reason, we cannot guarantee forked, modified and custom compiled
 versions of Hummingbird to be compliant to our specifications, development and
-coding guidelines and style, including our security standards. These derivative
-projects, of course, may also be better and more efficient than our release,
-however we cannot guarantee or provide help for the job or others.
+coding guidelines and style, including our security standards. These projects,
+of course, may also be better and more efficient than our release, however we
+cannot guarantee or provide help for the job or others.
 
 You are therefore strongly advised to check and verify the checksum codes found
-in the .sha512 files to exactly correspond to the ones below, that is, the
+in the `.sha512` files to exactly correspond to the ones below, that is, the
 checksum we have computed from the sources and distribution files directly
 compiled and built by AirVPN. This will make you sure about the origin and
 authenticity of hummingbird client. Please note the files contained in the
-distribution tarballs are created from the very source code available the master
-branch of the [official hummingbird's repository](https://gitlab.com/AirVPN/hummingbird).
+distribution tarballs are created from the very source code available in the
+master branch of the [official hummingbird's repository](https://gitlab.com/AirVPN/hummingbird).
 
 
 ### Checksum codes for Version 1.0
 
-The checksum codes contained in files `hummingbird-<os>-<arch>-1.0.tar.gz.sha512` and
-`hummingbird.sha512` must correspond to the codes below in order to prove they are
-genuinely created and distributed by AirVPN.
+The checksum codes contained in files `hummingbird-<os>-<arch>-1.0.tar.gz.sha512`
+and `hummingbird.sha512` must correspond to the codes below in order to prove
+they are genuinely created and distributed by AirVPN.
 
 
 #### Linux x86_64
